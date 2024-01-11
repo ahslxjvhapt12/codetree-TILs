@@ -3,8 +3,15 @@
 using namespace std;
 
 void REF(int& a,int& b){
-    a += 10;
-    b *= 2;
+    if(a > b){
+
+    a *= 2;
+    b += 10;
+    }
+    else{
+        a+=10;
+        b*=2;
+    }
 }
 int main() {
     int a, b;
