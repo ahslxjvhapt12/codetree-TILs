@@ -5,12 +5,12 @@
 using namespace std;
 
 int main() {
-    unordered_map<int, int> m;
+    unordered_map<long long, long long> m;
 
-    int n, x, y, sum = 0;
+    long long n, x, y, sum = 0;
     cin >> n;
     
-    for(int i = 0; i < n; i++){
+    for(long long i = 0; i < n; i++){
         cin >> x >> y;
 
         if(m.find(x) != m.end())
