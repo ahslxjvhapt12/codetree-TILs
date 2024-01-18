@@ -6,10 +6,10 @@ using namespace std;
 
 int main() {
 	vector<int> v;
-	int n, input;
+	long long n, input;
 	cin >> n;
 
-	for (int i = 0; i < n; i++)
+	for (long long i = 0; i < n; i++)
 	{
 		cin >> input;
 		v.push_back(input);
