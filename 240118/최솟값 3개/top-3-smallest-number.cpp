@@ -5,13 +5,13 @@ using namespace std;
 
 int main() {
 
-	priority_queue<int, vector<int>, greater<int>> q;
+	priority_queue<long long, vector<long long>, greater<long long>> q;
 
-	int n, input;
+	long long n, input;
 
 	cin >> n;
 
-	for (int i = 0; i < n; i++)
+	for (long long i = 0; i < n; i++)
 	{
 		cin >> input;
 		q.push(input);
@@ -20,7 +20,7 @@ int main() {
 			cout << -1;
 		}
 		else {
-			int n1, n2, n3;
+			long long n1, n2, n3;
 			n1 = q.top();
 			q.pop();
 			n2 = q.top();
